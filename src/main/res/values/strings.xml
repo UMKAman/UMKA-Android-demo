@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Umka.city</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_wallet">My wallet</string>
+    <string name="type_user">Client</string>
+    <string name="type_master">Specialist</string>
+    <string name="menu_message">Messages</string>
+    <string name="menu_favorite">Favorites</string>
+    <string name="menu_history">Orders</string>
+    <string name="menu_history_master">History messages</string>
+    <string name="menu_rating">Rating and feedback</string>
+    <string name="menu_feedback">Сontacts</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_index">Umka</string>
+    <string name="menu_index_menu">Main</string>
+    <string name="menu_premium">Paid features</string>
+    <string name="text_login_conditions">By continuing you are agreeing to comply with<a href="" title="the following terms and conditions">правилами использования</a> and <a href="" title="our  privacy policy">our  privacy policy</a></string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_enter_message">Enter your message</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_master_profile">Specialist profile</string>
+    <string name="title_activity_user_profile">Client profile</string>
+    <string name="title_activity_master_address">Address search</string>
+    <string name="title_activity_edit_profile">Edit profile</string>
+    <string name="all_price">Prices and Services</string>
+    <string name="item_first_name">Name</string>
+    <string name="item_last_name">Last name</string>
+    <string name="item_phone">Phone</string>
+    <string name="item_about">About</string>
+    <string name="item_email">E-mail</string>
+    <string name="menu_save">Save</string>
+    <string name="send_request">Sending request</string>
+    <string name="error">Error</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="back">back</string>
+    <string name="further">next</string>
+    <string name="mode_user">User mode selected</string>
+    <string name="mode_macter">Specialist mode selected</string>
+    <string name="begin">start</string>
+    <string name="today">Today</string>
+    <string name="reviews">feedback</string>
+    <string name="information">Information</string>
+    <string name="review">Feedback</string>
+    <string name="rating">Rating</string>
+    <string name="enter_all_parameters">Enter all parameters</string>
+    <string name="add_service">Add service</string>
+    <string name="add_portfolio">Add portfolio</string>
+    <string name="select_specialization">Select specialty</string>
+    <string name="all_service">All services</string>
+    <string name="specialists">Specialists</string>
+    <string name="messages">Messages</string>
+    <string name="maps">Map</string>
+    <string name="schedule">Schedule</string>
+    <string name="orders">Orders</string>
+    <string name="ready">Done</string>
+    <string name="get_location">Determining location...</string>
+    <string name="select_app">Select app</string>
+    <string name="entry">Enter</string>
+    <string name="add_review">Add feedback</string>
+    <string name="review_edit_ok">Feedback successfully updated</string>
+    <string name="review_create_ok">Feedback successfully sent</string>
+    <string name="image">Image</string>
+    <string name="search_masters">Specialists search</string>
+    <string name="rub">RUB</string>
+    <string name="km">km</string>
+    <string name="filters">Filters</string>
+    <string name="ok">ok</string>
+    <string name="select">Select</string>
+    <string name="by_prices">Price</string>
+    <string name="by_rating">Rating</string>
+    <string name="sort_by">Sort by</string>
+    <string name="specialization">Specialization</string>
+    <string name="gender">Sex</string>
+    <string name="enter_pass">Enter password</string>
+    <string name="enter_code">Enter the password received by SMS</string>
+    <string name="homemade">house-call</string>
+    <string name="new_pass">Select password</string>
+    <string name="your_locale">Your location: </string>
+    <string name="the_specialist">Work at home</string>
+    <string name="only_reviews">Only with feedback</string>
+    <string name="cost_service">Service cost</string>
+    <string name="search_radius">Searching area</string>
+    <string name="splash_text_1">Welcome to the world of services!</string>
+    <string name="splash_text_2">Done!</string>
+    <string name="splash_text_3">Hello!</string>
+    <string name="splash_text_4">Select application mode:</string>
+    <string name="splash_text_5">Client</string>
+    <string name="splash_text_7">Specialist</string>
+    <string name="splash_text_11">Select password</string>
+    <string name="splash_text_10">Almost done</string>
+    <string name="splash_text_12">Change password</string>
+    <string name="splash_text_13">The city is not defined</string>
+    <string name="splash_text_15">You can skip this step and return to it later</string>
+    <string name="splash_text_14">Sign in to access more features</string>
+    <string name="splash_text_9">In the application menu you can always switch from a client to a specialist and back</string>
+    <string name="splash_text_8">Create your profile and profit  with Umka!</string>
+    <string name="splash_text_6">You can examine the services and profiles of specialists. Authorized users can add feedback.</string>
+
+
+    <!--Settings-->
+    <string name="item_notification">Push notifications</string>
+
+    <!--Billing-->
+    <string name="item_b_title_1">Rise Up Profile</string>
+    <string name="item_b_desk_1">Your profile will be placed on top of the Specialist list</string>
+    <string name="item_b_price_1">100 RUB</string>
+
+    <string name="item_b_title_2">Premium account</string>
+    <string name="item_b_desk_2">Your profile will be placed on top of the Specialist list once a week. You also can add 20 items to portfolio</string>
+    <string name="item_b_price_2">300 RUB per month</string>
+
+    <string name="action_attach">Photo</string>
+    <string name="action_mic">Voice</string>
+
+</resources>
+
+

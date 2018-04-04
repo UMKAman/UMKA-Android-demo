@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorBackground"
+    tools:context="com.android.umka.com.umka.umka.activity.CreateMasterActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_weight="1"
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <android.support.v7.widget.Toolbar
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <View
+                        android:layout_weight="1.5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:paddingRight="16dp"
+                        android:drawableRight="@drawable/ic_fab_next"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center"
+                        android:text="Далее"
+                        android:id="@+id/item_next"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:visibility="gone"
+                        android:drawableLeft="@drawable/ic_toolbar_back_white"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center"
+                        android:text="Назад"
+                        android:id="@+id/item_prew"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:paddingRight="16dp"
+                        android:drawableRight="@drawable/ic_toolbar_done"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center"
+                        android:text="Готово"
+                        android:id="@+id/item_done"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

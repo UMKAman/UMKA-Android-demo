@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="32dp"
+        android:layout_above="@+id/center"
+        android:id="@+id/top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/item_mode"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/colorLightGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/splash_text_14"
+            android:textColor="@color/colorLightGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/center"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorLightGray"
+            android:textSize="18sp"
+            android:layout_marginRight="8dp"
+            android:text="+7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:inputType="phone"
+            android:background="@android:color/transparent"
+            android:id="@+id/item_edit_text_phone"
+            android:layout_marginBottom="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <include layout="@layout/divider"/>
+
+
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:text="@string/splash_text_15"
+            android:textSize="14sp"
+            android:textColor="@color/colorLightGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+</RelativeLayout>

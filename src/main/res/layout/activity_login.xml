@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:id="@+id/layout_background"
+    tools:context="com.umka.umka.activity.LoginActivity">
+
+    <com.umka.umka.views.CustomViewPager
+        android:id="@+id/view_pager"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:id="@+id/button_prev"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:layout_centerInParent="true"
+            android:padding="16dp"
+            android:id="@+id/page_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:id="@+id/button_next"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+</LinearLayout>

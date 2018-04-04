@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#201f3e</color>
+    <color name="colorBaground">#28274e</color>
+    <color name="colorBaground1">#302e5c</color>
+    <color name="colorPrimaryTransparent">#28201f3e</color>
+    <color name="colorPrimaryDark">#201f3e</color>
+    <color name="colorAccent">#23d27d</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTransparent">#fbc4c3c3</color>
+    <color name="colorChatUser">#ffffff</color>
+    <color name="colorChatMe">#bdbdbd</color>
+    <color name="colorBlack">#212121</color>
+    <color name="colorGray">#757575</color>
+    <color name="colorLightGray">#bdbdbd</color>
+    <color name="colorGreen">#009688</color>
+    <color name="colorChat">#e0e0e0</color>
+    <color name="colorBackground">#eeeeee</color>
+    <color name="rating_1">#c75d54</color>
+    <color name="rating_2">#ffa642</color>
+    <color name="rating_3">#f3ff4b</color>
+    <color name="rating_4">#78ce58</color>
+    <color name="rating_5">#18a950</color>
+    <color name="colorForButton">#6a3eb9</color>
+</resources>
